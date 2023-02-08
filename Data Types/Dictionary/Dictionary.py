@@ -1,0 +1,21 @@
+dict1 = {"Name": "Yadhu", "Age": 21, "Course": "python"}
+print(dict1)
+print(type(dict1))
+print("Name:", dict1["Name"])
+print("Age:", dict1["Age"])
+a = dict1.get("Course")             # get()
+print(a)
+b = dict1.keys()
+print(b)
+c = dict1.values()
+print(c)
+d = dict1.items()
+print(d)
+dict1["Age"]=22
+print(dict1)
+dict1.update({"Course": "Python Web Development"})
+print(dict1)
+dict1["place"] = "Combayar"
+print(dict1)
+dict1.pop("place")
+print(dict1)

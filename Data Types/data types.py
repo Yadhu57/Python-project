@@ -1,0 +1,13 @@
+#string
+str="YadhuKrihnan"
+print(str[:-7])
+print(str[::-1])
+print(str[::-2])
+print(str[::-3])
+print(str.lower())
+print(str.upper())
+print(str.title())
+print(str.swapcase())
+print(str.isupper())
+print(str.islower())
+print(str.isalpha())

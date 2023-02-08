@@ -1,0 +1,7 @@
+# all()
+# any()
+# enumerate()
+# len()
+# max()
+# min()
+# sorted()
